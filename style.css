@@ -448,14 +448,22 @@ a {
 ---------------------------------------------------*/
 
 .header {
-  background-color: #f2f3ee;
+  background-color: #f2f3ee8c;
   padding: 16px;
   position: sticky;
+  backdrop-filter: blur(12px);
   top: 0px;
   left: 0px;
-  opacity: 0.33;
   z-index: 999;
   width: 100%;
+}
+
+.hero{
+  background-image: url(asset/bdb267223e88eff2dae755395dd13d00.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header-nav {
@@ -563,13 +571,9 @@ header a.btn:hover {}
   }
 
   .cardProduit {
-    background-image: url("https://images.pexels.com/photos/12611637/pexels-photo-12611637.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    object-position: center;
+    background-image: url("https://pixabay.com/fr/images/download/x-5695971_1920.jpg");
     border-radius: 8px;
-    width: 100%;
-    height: 150px;
+    width: 50%;
   }
 
   p {
