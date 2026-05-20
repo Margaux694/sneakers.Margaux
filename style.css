@@ -574,6 +574,7 @@ header a.btn:hover {}
     background-image: url("https://pixabay.com/fr/images/download/x-5695971_1920.jpg");
     border-radius: 8px;
     width: 50%;
+    backface-visibility: var(--deuxieme-plan);
   }
 
   p {
