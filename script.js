@@ -1,3 +1,5 @@
+AOS.init();
+
 //chercher la donnée
 
 fetch("sneakers.json")
@@ -24,12 +26,12 @@ function afficherProduits(tableauDeProduits) {
 
     document.querySelector("#cardContainer").innerHTML +=
       `
-         <div class="card">
-            <img src="${produit.image}" alt="" class="large-1">
+         <div data-aos="zoom-in-right" class="card w-40">
+            <img src="${produit.image}" alt="" class="large-12">
             <div class="card-content">
                 <h3>${produit.nom}</h3>
                 <p>${produit.description}</p>
-                <button class="btn">DÉCOUVRIR</button>
+                <button class="btn-z">DÉCOUVRIR</button>
             </div>
 
         </div>
@@ -50,7 +52,8 @@ function afficherService(tableauService) {
   tableauService.forEach(service => {
     document.querySelector("#serviceContainer").innerHTML +=
       `
-      <div>
+      <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
         <p><strong>${service.nom}</strong></p>
         <p>${service.description}</p>
     </div>
@@ -62,14 +65,22 @@ function afficherService(tableauService) {
 //Role : créer temoignage et les afficher 
 //parametre : tableau temeoignage 
 // rturn : rien car elle affiche 
- function afficherTemoignage(tableauTemoignage) {
+function afficherTemoignage(tableauTemoignage) {
 
   tableauTemoignage.forEach(temoignage => {
     document.querySelector("#cardTemoignage").innerHTML +=
-    `
-    
+      `
+        <div data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0" class="carte-avis mb w-30">
+        <p><strong>${temoignage.prenom}</strong></p>
+        <p>${temoignage.typeExperience}</p>
+        <p>${temoignage.commentaire}</p>
+        <p>${temoignage.note}</p>
+    </div>
     `
 
   })
-  
- }
+
+}

@@ -101,6 +101,23 @@ body {
 }
 
 
+.conteneur-avis {       
+  gap: 20px;              
+  align-items: center;     
+  padding: 20px;
+  justify-content: space-around;
+  
+}
+
+
+.carte-avis {                   
+  max-width: 380px;
+  border: 1px solid #E5E7EB;       
+  border-radius: 12px;       
+  padding: 24px;             
+  background-color: #FFFFFF; 
+}
+
 /*--------------------------------------------------
 🪄 Mise en page flex
 ---------------------------------------------------*/
@@ -209,6 +226,14 @@ les resolutions d'ecrans d'apres un petit script sass*/
 
 .large-12 {
   width: calc(100% - 0 * var(--gap) / 1);
+}
+
+.w-40{
+  width: 40%;
+}
+
+.w-30{
+  width: 30%;
 }
 
 /*Tablets*/
@@ -378,9 +403,9 @@ a {
   margin-top: 100px;
 }
 
-.m-auto {
-  margin-left: auto;
-  margin-right: auto;
+
+mb{
+  margin-bottom: 16px;
 }
 
 .p-16 {
@@ -394,13 +419,13 @@ a {
 /*--------------------------------------------------
 ✅Boutons (rajoutez les hover de vos choix 😊)
 ---------------------------------------------------*/
-.btn {
+.btn-z {
   display: inline-block;
-
+  transition: transform 0.3s ease;
   padding: 10px 18px;
   border-radius: 8px;
   cursor: pointer;
-
+  transform: scale(1.05);
   border: 2px solid var(--primary);
 }
 
@@ -464,6 +489,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
 }
 
 .header-nav {
@@ -585,6 +611,22 @@ header a.btn:hover {}
     padding: 8px;
   }
 
+  .carte-produit {
+  flex: 1;                   
+  min-width: 300px;          
+  border: 1px solid #E5E7EB; 
+  border-radius: 12px;       
+  padding: 24px;             
+  background-color: #FFFFFF; /* Fond blanc */
+}
+
+.conteneur-produits {
+  display: flex;             
+  gap: 20px;                 
+  justify-content: center;   
+  flex-wrap: wrap;
+}           
+
 
 .avis {
 
@@ -634,6 +676,10 @@ header a.btn:hover {}
   min-height: 200px;
   /*enlever les arrondis */
   border-radius: 16px;
+}.fond-img{
+  background-image: url(asset/bdb267223e88eff2dae755395dd13d00.jpg);
+  background-size: cover;
+
 }
 
 /*--------------------------------------------------

@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
     <link rel="stylesheet" type="text/css"
@@ -39,23 +42,28 @@
 
     <section class="hero card">
         <div class="fond-img hero text-center">
-            <img src="asset/bdb267223e88eff2dae755395dd13d00.jpg" alt="">
+           <!--  <img src="asset/bdb267223e88eff2dae755395dd13d00.jpg" alt="">--> 
+             <br>
             <h1 class="text-center">BON PIED</h1>
+
             <h3 class="text-center">Sneakers</h3>
-            <p class="text-center">Marchez avec style tout en respectant la planète avec BonPied, votre destination de
-                sneakers éco-sourcés à Saint-Etienne</p>
-            <button class="btn">DECOUVRIR</button>
+            <br>
+            <br>
+            <button class="btn-z">DECOUVRIR</button>
+            <br>
         </div>
     </section>
 
     <!-- SECTION PRODUITS -->
 
-    <section id="cardContainer" class="cardProduit m-auto mt-32 responsive large-4 medium-6 small-12">
+    <div><strong>NOS PRODUITS</strong></div>
 
+    <section id="cardContainer" class="flex mt-32 responsive carte-produit container-1200 justify-around conteneur-produits">
+
+         
         <!--  
-        
-        <div class="card">
-            <img src="asset/grailify-sneakers-5695971_1920 1.jpg" alt="">
+        <div class="card conteneur-produits ">
+            <img src="" alt="">
             <div class="card-content">
                 <h3>Sneakers Classic</h3>
                 <p>doptez le style classique avec nos sneakers éco-sourcés. Conçues <br>avec des matériaux recyclés,
@@ -64,44 +72,48 @@
                 <button class="btn">DÉCOUVRIR</button>
             </div>
 
-        </div>
+        </div>-->
 
-        -->
+       
 
     </section>
 
     <!-- SERVICES -->
 
-<section id="serviceContainer">
+<section id="serviceContainer" class="carte-produit">
 
-    <!--  
-    <div>
+<!--  
+    <div class="card conteneur-produits ">
         <p><strong>Personnalisation</strong></p>
         <p>Personnalisez vos sneakers pour un style unique. Choisissez vos couleurs, motifs et matériaux préférés pour des chaussures qui reflètent votre personnalité.</p>
     </div>
-    -->
+-->    
 </section>
 
 <!-- TEMOGNAGE -->
 
-<section id="cardTemoignage">
-
-    <div>
+<section id="cardTemoignage" class="flex mt-32 conteneur-avis ">
+<!--  
+    <div class="conteneur-produits ">
         <p><strong>Louis</strong></p>
         <p>Personnalisation</p>
         <p>J'ai personnalisé mes propres sneakers chez BonPied, et elles sont tout simplement géniales. Le processus était facile, et le résultat final correspond parfaitement à ce que je voulais. Une expérience exceptionnelle !</p>
-        <p></p>
+        <p>⭐️⭐️⭐️⭐️⭐️</p>
     </div>
-
+-->
 </section>
 
+<footer>
+    <div>
+        <a href=""><i class="ph ph-instagram-logo"></i></a>
+        <a href=""><i class="ph ph-linkedin-logo"></i></a>
 
-    <section>
-        <div></div>
-        <div></div>
-        <div></div>
-    </section>
+
+    </div>
+    <div>
+       <a href="mailto:adresse@exemple.com">Envoyer un email</a>
+    </div>
+</footer>
 
 </body>
-
 </html>
