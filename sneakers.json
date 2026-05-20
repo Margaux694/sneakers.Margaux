@@ -11,27 +11,27 @@
     {
       "nom": "Sneakers Classic",
       "description": "Adoptez le style classique avec nos sneakers éco-sourcés. Conçues avec des matériaux recyclés, elles allient confort, durabilité et élégance.",
-      "image": "asset/"
+      "image": "asset/adidass.jpg"
     },
     {
       "nom": "Sneakers Urbaines",
       "description": "Affirmez votre style urbain avec nos sneakers tendance. Des designs modernes fabriqués de manière éthique pour une empreinte écologique réduite.",
-      "image": "https://pixabay.com/fr/images/download/x-2239788_1920.jpg"
+      "image": "asset/imgairforce.jpg"
     },
     {
       "nom": "Sneakers Légères",
       "description": "Optez pour le confort ultime avec nos sneakers légères. Fabriquées avec des matériaux respirants, elles sont idéales pour une utilisation quotidienne.",
-      "image": "https://pixabay.com/fr/images/download/x-2521534_1920.jpg"
+      "image": "asset/imgconverse.jpg"
     },
     {
       "nom": "Sneakers Hautes Performance",
       "description": "Atteignez de nouveaux sommets avec nos sneakers hautes performances. Conçues pour offrir un soutien optimal tout en respectant l'environnement.",
-      "image": "https://pixabay.com/fr/images/download/grailify-nike-5041723_1920.jpg"
+      "image": "asset/imgnike.jpg"
     },
     {
       "nom": "Sneakers Vintage Éco-sourcées",
       "description": "Retrouvez le charme du vintage avec nos sneakers éco-sourcées. Des modèles rétro repensés avec des matériaux respectueux de l'environnement.",
-      "image": "https://pixabay.com/fr/images/download/x-2073425_1920.jpg"
+      "image": "/asset/jordan.jpg"
     }
   ],
   "services": [
