@@ -172,6 +172,27 @@ body {
 }
 
 
+.centrer{
+    text-align: center;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}
+
+.text-color{
+    color: white;
+}
+
+.padding{
+    padding: 30px;
+}
+
+
 /*--------------------------------------------------
 🧱Largeurs et colonnes
 ---------------------------------------------------*/
@@ -483,14 +504,16 @@ mb{
   width: 100%;
 }
 
-.hero{
-  background-image: url(asset/bdb267223e88eff2dae755395dd13d00.jpg);
-  height: 100vh;
+.hero {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('asset/friends-standing-with-space-themselves-due-social-distancing.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
-
 }
+
 
 .header-nav {
   display: flex;
@@ -506,11 +529,14 @@ a:hover>i {
   color: var(--hover)
 }
 
-a.btn:hover,
-header a.btn:hover {}
+
 
 .burger {
   display: none;
+}
+
+.justify-center {
+  text-align: center;
 }
 
 @media all and (max-width: 800px) {
